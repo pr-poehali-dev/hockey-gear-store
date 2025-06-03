@@ -2,41 +2,41 @@ import Icon from "@/components/ui/icon";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <footer className="bg-gradient-to-br from-gray-900 via-slate-900 to-gray-900 text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">🏒</span>
+            <div className="flex items-center space-x-3 mb-6">
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center shadow-lg">
+                <span className="text-white font-bold text-lg">🏒</span>
               </div>
-              <h3 className="text-xl font-bold">HockeyShop</h3>
+              <h3 className="text-2xl font-bold">HockeyShop</h3>
             </div>
-            <p className="text-gray-400 mb-4">
+            <p className="text-gray-300 mb-6 leading-relaxed">
               Профессиональная хоккейная экипировка от ведущих мировых брендов.
               Качество, надежность, доступные цены.
             </p>
             <div className="flex space-x-4">
               <Icon
                 name="Facebook"
-                size={20}
-                className="text-gray-400 hover:text-white cursor-pointer"
+                size={22}
+                className="text-gray-400 hover:text-blue-400 cursor-pointer transition-all duration-300 hover:scale-110"
               />
               <Icon
                 name="Instagram"
-                size={20}
-                className="text-gray-400 hover:text-white cursor-pointer"
+                size={22}
+                className="text-gray-400 hover:text-pink-400 cursor-pointer transition-all duration-300 hover:scale-110"
               />
               <Icon
                 name="Twitter"
-                size={20}
-                className="text-gray-400 hover:text-white cursor-pointer"
+                size={22}
+                className="text-gray-400 hover:text-blue-400 cursor-pointer transition-all duration-300 hover:scale-110"
               />
               <Icon
                 name="Youtube"
-                size={20}
-                className="text-gray-400 hover:text-white cursor-pointer"
+                size={22}
+                className="text-gray-400 hover:text-red-400 cursor-pointer transition-all duration-300 hover:scale-110"
               />
             </div>
           </div>
@@ -167,8 +167,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">
+        <div className="border-t border-gray-700 mt-12 pt-8 text-center">
+          <p className="text-gray-400 text-lg">
             © 2024 HockeyShop. Все права защищены.
           </p>
         </div>
